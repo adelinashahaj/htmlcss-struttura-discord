@@ -1,0 +1,42 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header-top{
+    background-color: red;
+    height: 50px;
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+
+.flex-container{
+    display: flex;
+   
+    height: 20px;
+   
+       
+}
+nav{
+    min-height: 200px;
+
+}
+ul{
+    list-style: none;
+    list-style: none;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    
+}
+li{
+    border: dashed 2px;
+    background-color: yellow;
+}
+.header-bottom{
+    background-color: blue;
+    height: 300px;
+}
