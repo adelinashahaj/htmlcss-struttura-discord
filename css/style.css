@@ -7,6 +7,7 @@
 .header-top{
     background-color: red;
     height: 50px;
+    
 }
 .container{
     max-width: 1170px;
@@ -15,15 +16,17 @@
 
 
 nav{
-    min-height: 200px;
+    min-height: 100%;
+
 
 }
 ul{
-    list-style: none;
+    
     list-style: none;
     flex-direction: row;
     display: flex;
     justify-content: space-between;
+    
     
 }
 li{
@@ -71,7 +74,7 @@ li{
     
     border: dashed 2px;
     height: 200px;
-    margin-top: 250px;
+    margin-top: 20px;
     margin-bottom: 20px;
     width: 100%;
     background-color: gray;
