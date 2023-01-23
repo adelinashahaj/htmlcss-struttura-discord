@@ -77,7 +77,7 @@ li{
     margin-top: 20px;
     margin-bottom: 20px;
     width: 100%;
-    background-color: gray;
+   
 
 }.box-blu1{
     background-color: blue;
@@ -87,4 +87,20 @@ li{
 .box-rosa1{
     background-color: pink;
     max-width: calc(100% / 1);
+}
+.container .backg-color{
+    background-color: gray;
+}
+.col-quattro{
+    display: flex;
+    justify-content: center;
+}
+.jumbotron1{
+    background-color: rgb(53, 176, 28);
+    height: 500px;
+    width: 100%;
+    display: flex;
+    margin: 20px;
+    border: dashed 2px;
+    max-width: 1300px;
 }
