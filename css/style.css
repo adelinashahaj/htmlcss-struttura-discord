@@ -13,13 +13,7 @@
     margin: auto;
 }
 
-.flex-container{
-    display: flex;
-   
-    height: 20px;
-   
-       
-}
+
 nav{
     min-height: 200px;
 
@@ -38,7 +32,6 @@ li{
 }
 .header-bottom{
     background-color: blue;
-    
     display: flex;
     justify-content: center;
 }
@@ -73,4 +66,22 @@ li{
 .box-rosa{
     background-color: pink;
     max-width: calc(100% / 3);
+}
+.flexcontent1{
+    
+    border: dashed 2px;
+    height: 200px;
+    margin-top: 250px;
+    margin-bottom: 20px;
+    width: 100%;
+    background-color: gray;
+
+}.box-blu1{
+    background-color: blue;
+    max-width: calc(100% / 4);
+    height: 200px;
+}
+.box-rosa1{
+    background-color: pink;
+    max-width: calc(100% / 1);
 }
