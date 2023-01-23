@@ -38,5 +38,39 @@ li{
 }
 .header-bottom{
     background-color: blue;
-    height: 300px;
+    
+    display: flex;
+    justify-content: center;
+}
+.jumbotron{
+    background-color: aqua;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    margin: 20px;
+    border: dashed 2px;
+    max-width: 800px;
+
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+.flexcontent{
+    
+    border: dashed 2px;
+    height: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+
+}
+.box-blu{
+    background-color: blue;
+    max-width: calc(100% / 1);
+    height: 200px;
+}
+.box-rosa{
+    background-color: pink;
+    max-width: calc(100% / 3);
 }
