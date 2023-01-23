@@ -77,6 +77,7 @@ li{
     margin-top: 20px;
     margin-bottom: 20px;
     width: 100%;
+    background-color: gray;
    
 
 }.box-blu1{
@@ -94,13 +95,16 @@ li{
 .col-quattro{
     display: flex;
     justify-content: center;
+    background-color: gray
+    
 }
 .jumbotron1{
     background-color: rgb(53, 176, 28);
     height: 500px;
     width: 100%;
     display: flex;
-    margin: 20px;
+    
     border: dashed 2px;
-    max-width: 1300px;
+    max-width: 1200px;
+    margin-top: 20px;
 }
